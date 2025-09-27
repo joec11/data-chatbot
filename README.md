@@ -1,3 +1,21 @@
+# Data Chatbot
+
+* <b>Set up the environment</b>
+
+<pre>
+pip3 install virtualenv
+virtualenv venv
+source venv/bin/activate
+
+pip3 install -r requirements.txt
+</pre>
+
+* <b>Run the App</b>
+
+<pre>
+python3 server.py
+</pre>
+
 ## How to get watsonx API key and Project ID
 
 Here, we initialize a language model and its embeddings. Here's a brief description of each section of the script:
